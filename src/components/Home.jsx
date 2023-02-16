@@ -16,7 +16,7 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-4xl font-bold text-[#c3d3f2de]'>a Computer Science Student at WPI</h2>
                 <p className='text-[#ffffff] py-4 max-w-[700px]'> I am an aspiring software engineer and data scientist with a passion for solving complex
                  problems and creating impactful technology. 
-                 My academic journey has exposed me to a variety of programming languages, algorithms, and mathematical theories, allowing me to develop a strong foundation in the field.</p>
+                 </p>
 
                 <div>``
                     <button className='text-[white] group border-2 px-6 py-3 my-2  flex items-center hover:bg-[#ff8482] hover:border-[#ff8482] hover:text-[#ffffff]'> <Link  to='work'  smooth={true} duration={500} >
