@@ -19,7 +19,7 @@ const Home = () => {
                  </p>
 
                 <div>``
-                    <button className='text-[white] group border-2 px-6 py-3 my-2  flex items-center hover:bg-[#ff8482] hover:border-[#ff8482] hover:text-[#ffffff]'> <Link  to='work'  smooth={true} duration={500} >
+                    <button className='text-[white] group border-2 px-6 py-3 my-2  flex items-center hover:bg-[#ff8482] hover:border-[#ff8482] hover:text-[#ffffff]'> <Link to='work'  smooth={true} duration={500} >
            View Work
         </Link>
                     <span className='group-hover:rotate-90 duration-300'>

@@ -8,7 +8,7 @@ import Node from '../assets/node.png';
 import Cplus from '../assets/Cplus.png';
 import python from '../assets/python.png';
 import Tailwind from '../assets/tailwind.png';
-import Java from '../assets/Java.png';
+import Java from '../assets/java-logo.png';
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#040228] text-white'>

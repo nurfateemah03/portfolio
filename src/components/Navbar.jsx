@@ -4,15 +4,21 @@ import {HiOutlineMail} from 'react-icons/hi'
 import{BsFillPersonLinesFill} from 'react-icons/bs'
 import  Logo from '../assets/logo1.png';
 import {Link} from 'react-scroll';
+import {Routes, Route} from 'react-router-dom';
+import WorkDetails from './WorkDetails';
+
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick =() => setNav (!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#040228] text-white '>
     
+    <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#040228] text-white '>
+   
 
     {/*MEnu */}
+    
         <ul className=' hidden md:flex'>
             <li>
             <Link  to='home' smooth={true} duration={500} className=' hover:text-[#ff8482] my-5 font-bold' >
@@ -79,14 +85,14 @@ const Navbar = () => {
         </a>
     </li>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6f71d0]'>
-        <a  className='flex justify-between items-center w-full text-white'
-        href ="/">
+        <Link to='contact' className='flex justify-between items-center w-full text-white'
+       >
            Email <HiOutlineMail size ={30}/>
-        </a>
+        </Link>
     </li>
     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f69a7d]'>
         <a  className='flex justify-between items-center w-full text-white'
-        href ="https://docs.google.com/document/d/1CJ9IUfK8l2OIo2pv_285rTgftXUnA1Z4vrXkEjeOjAU/edit?usp=sharing">
+        href ="https://drive.google.com/file/d/1X3mt8N9qCkls2TMUkD923hMqF6FJO7jW/view?usp=sharing">
           Resume <BsFillPersonLinesFill size ={30}/>
         </a>
     </li>
