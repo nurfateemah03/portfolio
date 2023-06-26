@@ -2,9 +2,9 @@ import React from 'react'
 import { Route } from 'react-router-dom';
 import WorkDetails from './WorkDetails';
 import work from '../assets/Work.jpg'
-import code1 from '../assets/maxresdefault.jpg'
-import code3 from '../assets/R.jpeg'
-import code2 from '../assets/OIP.jpeg'
+import code1 from '../assets/pp.png'
+import code3 from '../assets/skincare.jpg'
+import code2 from '../assets/uu.jpg'
 import {Link} from 'react-scroll';
 
 
@@ -27,19 +27,19 @@ const Work = () => {
                    
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                    Battleship
+                    Sephora SkinCare API
                         </span>
                         <div className='pt-8 text-center'>
                        {/* <a href="/">
                         <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg text-center'>Details</button>
                         </a>     */}
-                        <a href="https://github.com/nurfateemah03/NimGame">
+                        <a href="https://github.com/nurfateemah03/skincare-product-scraper">
                         <button  className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg text-center'>Code</button>
                         </a>  
                         </div>
                     </div>
                 </div>
-
+                        
 
                 <div 
                 style={{ backgroundImage: `url(${code2})` }} 
@@ -48,14 +48,14 @@ const Work = () => {
                    
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                    Voting Simulation
+                    Social Media Web App
                         </span>
                         <div className='pt-8 text-center'>
                      {/* <Link to= '/WorkDetails' className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg text-center'>
                   Details
                   </Link> */}
                           
-                        <a href="https://github.com/nurfateemah03/Voting-Election">
+                        <a href="https://github.com/nurfateemah03/Social-media-fullstack">
                         <button  className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg text-center'>Code</button>
                         </a>  
                         </div>
@@ -68,16 +68,17 @@ const Work = () => {
                    
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                   Nim Game
+                   Yelp Data Set Analysis
                         </span>
                         <div className='pt-8 text-center'>
                        {/* <a href="/">
                         <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg text-center'>Details</button>
                         </a>     */}
-                        <a href="https://github.com/nurfateemah03/BattleShip">
+                        <a href="https://github.com/nurfateemah03/YelpDataBusinessAttributes">
                         <button  className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg text-center'>Code</button>
                         </a>  
                         </div>
+                        
                     </div>
                 </div>
             </div>
